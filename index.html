@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="text-center">Logic Test</h1>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 my-4 p-4 border">
+                <div class="Palindrome ">
+                    <h3>1. Palindrome</h3>
+                    <input class="form-control" id="inputPalindrome" type="text" placeholder="Input words">
+                    <button class="btn btn-success my-2" type="submit" onclick="palindrome();">Generate</button>
+                    <textarea id="resultPalindrome" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 my-4 p-4 border">
+                <div class="leap-year">
+                    <h3>2. Leap Year</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="form-control" id="inputYear1" type="number"
+                                placeholder="Input year 1">
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" id="inputYear2" type="number"
+                                placeholder="Input year 2">
+                        </div>
+                    </div>
+                    <button class="btn btn-success my-2" type="submit" onclick="leapYear();">Generate</button>
+                    <textarea id="resultLeap" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 my-4 p-4 border">
+                <div class="reverse-word">
+                    <h3>3. Reverse Word</h3>
+                    <input type="text" id="inputReverse" class="form-control" placeholder="Input words">
+                    <button type="submit" class="btn btn-success my-2" onclick="reverseWord();">Generate</button>
+                    <textarea id="resultReverse" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 my-4 p-4 border">
+                <div class="nearest-fibonacci">
+                    <h3>4. Nearest Fibonacci</h3>
+                    <div class="alert alert-danger" role="alert">
+                        <strong>Not done yet!</strong>
+                    </div>
+                    <input type="text" id="" class="form-control" placeholder="">
+                    <button type="submit" class="btn btn-success my-2" onclick="">Generate</button>
+                    <textarea id="" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-6 my-4 p-4 border">
+                <div class="fizz-buzz">
+                    <h3>5. Fizz Buzz</h3>
+                    <input class="form-control" id="inputFizz" type="number" placeholder="Input n" pattern="[0-9]/g"
+                        title="Three letter country code" name="aku">
+                    <button class="btn btn-success my-2" type="submit" onclick="fizzBuzz();">Generate</button>
+                    <textarea id="resultFizz" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
