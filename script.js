@@ -13,7 +13,6 @@ function palindrome() {
         // console.log('Not palindrome');
         document.getElementById("resultPalindrome").innerHTML = "Not Palindrome"
     }
-
 }
 
 
@@ -64,11 +63,7 @@ function reverseWord(str) {
         //console.log(result);
         //console.log(result1);
     }
-
 }
-
-
-
 
 function fizzBuzz() {
 
